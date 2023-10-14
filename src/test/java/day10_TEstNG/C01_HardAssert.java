@@ -49,5 +49,6 @@ public class C01_HardAssert extends TestBase {
         String actualIlkUrun=ilkUrunIsimElementi.getText();
         Assert.assertTrue(actualIlkUrun.contains(expectedUrun));
 
+        //hard assert
     }
 }
