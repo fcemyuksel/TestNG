@@ -1,6 +1,6 @@
-package day10_TEstNG;
+package tests.day10_TestNG;
 
-import Utilies.TestBase;
+import tests.Utilies.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class C01_HardAssert extends TestBase {
-    @Test
+    @Test(groups = {"smoke","regresyon","e2e2"})
     public void amazonTest(){
 /*
             TestNG JUnit'deki assertion method'larinin tamamina sahiptir
@@ -24,16 +24,16 @@ public class C01_HardAssert extends TestBase {
 
         //amazon ana sayfaya gidin
         driver.get("https://www.amazon.com");
-        //url'in "https://www.amazon.com/" iceridigini test edin
-        String expectedUrlIcerik="https://www.amazon.com/";
+        //url'in "https://www.amazon.com/" oldugunu test edin
+        String expectedUrl="https://www.amazon.com/";
         String actualUrl=driver.getCurrentUrl();
 
-        Assert.assertEquals(actualUrl,expectedUrlIcerik);
+        Assert.assertEquals(actualUrl,expectedUrl);
         //Nutella icin arama yapin
         WebElement aramaKutusu=driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
 
-        //arama sonucunun Nutella icersigini test edin
+        //arama sonucunun Nutella icerdigini test edin
         WebElement aramaSonucElementi= driver.findElement(By.xpath("//*[@class='a-size-base s-desktop-toolbar a-text-normal']"));;
         String expectedIcerik="Nutella";
         String actualAramaSonucu=aramaSonucElementi.getText();
@@ -42,7 +42,7 @@ public class C01_HardAssert extends TestBase {
         //ilk urune tiklayin
         driver.findElement(By.xpath("(//*[@class='a-section aok-relative s-image-square-aspect'])[1]")).click();
 
-        // ilk urun isminin Nutella icerdigini test edin
+        // ilk urun isminin Nutella icerdigini test edin
 
         WebElement ilkUrunIsimElementi= driver.findElement(By.xpath("//span[@id='productTitle']"));
         String expectedUrun="Nutella";
