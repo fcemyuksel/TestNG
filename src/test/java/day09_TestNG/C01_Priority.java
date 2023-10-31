@@ -20,7 +20,6 @@ public class C01_Priority extends TestBase {
         String expectedUrlIcerik="youtube";
         String actualUrl=driver.getCurrentUrl();
         Assert.assertTrue(actualUrl.contains(expectedUrlIcerik));
-
     }
 
     @Test
