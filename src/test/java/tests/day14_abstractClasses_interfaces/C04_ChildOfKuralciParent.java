@@ -20,4 +20,12 @@ public class C04_ChildOfKuralciParent extends C03_KuralciParent{
         // child class isterse override eder
         // isterse parent class'dan kullanir
     }
+
+    @Override
+    public void method4() {
+
+    }
+    //public abstract void method5();
+    // Abstract method in non-abstract class
+    // Concrete bir class icerisinde ABSTRACT method OLUSTURULAMAZ
 }
