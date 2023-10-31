@@ -29,4 +29,10 @@ public abstract class C03_KuralciParent {
     public abstract void method2();
     // abstract method'lar sadece zorunluluk olusturmak icin kullanilir
     // body'leri olmaz
+
+    public void method3(){
+
+    }
+
+    public abstract void method4();
 }
