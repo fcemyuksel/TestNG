@@ -22,5 +22,48 @@ public class Runner {
 
         C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"10","H");//Ayse Can   Veli Han
         C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");//Sevgi Cem  Kemal Cem
+
+        //TM bolumundeki ogrenci listesi
+
+        C03_BransListesiOlusrurma.bolumOgrenciListesiYazdir(ogrenciMap,"TM");
+        //10 K Veli Cem
+        //11 K Ali Cem
+        //11 M Sevgi Cem
+        //11 M Kemal Cem
+
+        System.out.println("==================================================");
+
+        //soyismi Can olan ogrenci listesi
+
+        C04_SoyisimdenOgrenciBulma.soyisimOgrenciListesi(ogrenciMap,"Can");
+        //11 H MF Ali Can
+        //10 H MF Ayse Can
+        //10 K MF Sevgi Can
+
+        System.out.println("======================================================");
+
+        //soyadi Cem olanlar
+        C04_SoyisimdenOgrenciBulma.soyisimOgrenciListesi(ogrenciMap,"Cem");
+        //10 K TM Veli Cem
+        //11 K TM Ali Cem
+        //11 M TM Sevgi Cem
+        //11 M TM Kemal Cem
+
+        System.out.println("===============================");
+        //tum ogrencilerin numara isim ve soyisimlerini yazdirin
+        System.out.println("--------------TUM OGRENCI LISTESI--------------------");
+
+        C05_NumaraliOgrenciListesi.njumaraliOgrenciListesiYazdirma(ogrenciMap);
+
+        //101 Ali Can
+        //102 Veli Cem
+        //103 Ali Cem
+        //104 Ayse Can
+        //105 Sevgi Cem
+        //106 Sevgi Can
+        //107 Veli Han
+        //108 Kemal Cem
+        //109 Ayse Han
+
     }
 }
