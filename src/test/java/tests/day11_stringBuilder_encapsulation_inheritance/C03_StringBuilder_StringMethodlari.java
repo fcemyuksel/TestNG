@@ -21,13 +21,15 @@ public class C03_StringBuilder_StringMethodlari {
 
         //sb de java var mi?
         //bazen StringBuilder bir variablede String Methodlari kullanmak isteriz
-        //bu drurmlar icin once toString() ile sb'i Stringe cevirebiliriz
+        //bu durumlar icin once toString() ile sb'i Stringe cevirebiliriz
 
         System.out.println(sb.toString().contains("Java"));//true
 
         System.out.println(sb);//Java Candir (icerik degismedi)
 
 
+
+        }
     }
 
-}
+

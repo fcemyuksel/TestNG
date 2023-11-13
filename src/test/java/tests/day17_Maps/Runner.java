@@ -20,8 +20,8 @@ public class Runner {
 
         //10/H sinifindaki ogrenci listesini yazin
 
-        C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"10","H");//Ayse Can   Veli Han
-        C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");//Sevgi Cem  Kemal Cem
+        C02_SinifSubeListesiYazdirma.sinifSubeListesiYazdirma(ogrenciMap,"10","H");//Ayse Can   Veli Han
+        C02_SinifSubeListesiYazdirma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");//Sevgi Cem  Kemal Cem
 
         //TM bolumundeki ogrenci listesi
 
@@ -87,7 +87,10 @@ public class Runner {
         //108 Kemal Cem
         //109 Ayse Han
 
+        //11. sinif ogrencileri yazdiralim
 
+        System.out.println("=====11. Sinif Listesi==========");
+        C08_SinifListesiYazdirma.sinifListesiYazdirma(ogrenciMap,"11");
 
     }
 }
