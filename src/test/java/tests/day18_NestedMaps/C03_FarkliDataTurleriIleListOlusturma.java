@@ -11,9 +11,9 @@ public class C03_FarkliDataTurleriIleListOlusturma {
         isimler.add("Arda");
         isimler.add("Aykut");
         isimler.add("Cem");
-        //isimler.add(10);
-        //isimler.add(true);
-        //isimler.add(new ArrayList<Integer>());
+        //isimler.add(10); kabul etmez
+        //isimler.add(true); kabul etmez
+        //isimler.add(new ArrayList<Integer>()); kabul etmez
 
         //gercek hayatta birden fazla data turunu iceren yapilar vardir
         //Javada farkli data turleri ile Lİst gibi yapilar olusturabiliriz
@@ -36,7 +36,7 @@ public class C03_FarkliDataTurleriIleListOlusturma {
 
         System.out.println((((Integer) herseyListesi.get(1)) + 3));//13
 
-        //listenin son elemani isimler listesinin 3. elemanini yazdirin
+        //listenin son elemani isimler listesinin 3. elemanini Cem'i yazdirin
 
         System.out.println(((List) herseyListesi.get(3)).get(2)); //Cem
         System.out.println(((List) herseyListesi.get(3)).get(2).toString().toUpperCase());//CEM
