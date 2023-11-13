@@ -23,7 +23,6 @@ public class C09_TopluBolumDegistirme {
         ogrenciMap=topluBolumDegistirme(ogrenciMap,"MF","SAY");
         ogrenciMap=topluBolumDegistirme(ogrenciMap,"TM","EA");
         System.out.println(ogrenciMap);
-
     }
 
     public static Map<Integer, String> topluBolumDegistirme(Map<Integer, String> ogrenciMap, String esliBolum, String yeniBolum) {
