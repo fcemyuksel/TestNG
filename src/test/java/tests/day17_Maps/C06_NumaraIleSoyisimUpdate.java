@@ -28,8 +28,12 @@ public class C06_NumaraIleSoyisimUpdate {
 
         //yapilan degisikligi map'e konulacak value biciminde yazalim
 
-        String yeniValue=valueArr[0]+"-"+valueArr[1]+"-"+valueArr[2]+"-"+valueArr[3]+"-"+valueArr[4];
-        //Ali-Han-11-K-TM
+        String yeniValue=valueArr[0]+"-"
+                +valueArr[1]+"-"
+                +valueArr[2]+"-"
+                +valueArr[3]+"-"
+                +valueArr[4];        //Ali-Han-11-K-TM
+
 
         ogrenciMap.put(103,yeniValue);
         System.out.println(ogrenciMap);//103=Ali-Han-11-K-TM
@@ -38,13 +42,13 @@ public class C06_NumaraIleSoyisimUpdate {
 
     public static Map<Integer,String > numaraIleSoyisimUpdate(Map<Integer,String>ogrenciMap, int ogrenciNo, String yeniSoyisim){
 
-        //soyadi degistirilecek ogrencinin eski bilgisini bilisini ogrenci no ile cagirip kaydededlim
+        //soyadi degistirilecek ogrencinin eski bilgisini ogrenci no ile cagirip kaydededlim
 
-        String eskiValur=ogrenciMap.get(ogrenciNo);
+        String eskiValue=ogrenciMap.get(ogrenciNo);
 
         //eski value uzerinde degisiklik yapmak icin array'e cevirelim
 
-        String[] valueArr=eskiValur.split("-");
+        String[] valueArr=eskiValue.split("-");
 
         //valueArr uzerinde istenen update'i yapalim
 
@@ -56,7 +60,7 @@ public class C06_NumaraIleSoyisimUpdate {
         String yeniValue=valueArr[0]+"-"+valueArr[1]+"-"+valueArr[2]+"-"+valueArr[3]+"-"+valueArr[4];
 
         // ogrenci no ve yeniValue'yu Map'e ekleyelim
-        //mapde ogrenci no zaten oldugundan Java Eskiyi silip
+        //map'de ogrenci no zaten oldugundan Java Eskiyi silip
         //ekledigimiz yeni degeri kabul edecektir
 
         ogrenciMap.put(ogrenciNo,yeniValue);
