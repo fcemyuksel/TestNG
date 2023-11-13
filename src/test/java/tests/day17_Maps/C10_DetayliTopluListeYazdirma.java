@@ -50,6 +50,7 @@ public class C10_DetayliTopluListeYazdirma {
             //107 10/H-MF Veli Han
             //108 11/M-TM Kemal Cem
             //109 10/K-MF Ayse Han
+
         }
 
     }
