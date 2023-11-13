@@ -65,5 +65,29 @@ public class Runner {
         //108 Kemal Cem
         //109 Ayse Han
 
+
+        //104 numarali ogrencinin soyismini Yilmaz, 105 numarali ogrencinin soyismini Celik yapip
+        //tum ogrenci listesini yazdiralim
+
+        ogrenciMap=C06_NumaraIleSoyisimUpdate.numaraIleSoyisimUpdate(ogrenciMap,104,"Yilmaz");
+        ogrenciMap=C06_NumaraIleSoyisimUpdate.numaraIleSoyisimUpdate(ogrenciMap,105,"Celik");
+
+        System.out.println("--------------TUM OGRENCI LISTESI SOYISIM DEGISIMI SONRA--------------------");
+
+        C05_NumaraliOgrenciListesi.njumaraliOgrenciListesiYazdirma(ogrenciMap);
+
+        //--------------TUM OGRENCI LISTESI SOYISIM DEGISIMI SONRA--------------------
+        //101 Ali Can
+        //102 Veli Cem
+        //103 Ali Cem
+        //104 Ayse Yilmaz
+        //105 Sevgi Celik
+        //106 Sevgi Can
+        //107 Veli Han
+        //108 Kemal Cem
+        //109 Ayse Han
+
+
+
     }
 }
