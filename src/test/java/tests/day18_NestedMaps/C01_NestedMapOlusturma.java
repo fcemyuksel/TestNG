@@ -58,6 +58,5 @@ public class C01_NestedMapOlusturma {
         ogrenciMapi.get(103).put("sinif","12");
         System.out.println(ogrenciMapi.get(103)); //{sinif=12, sube=K, soyisim=Cem, bolum=TM, isim=Ali}
 
-
     }
 }
