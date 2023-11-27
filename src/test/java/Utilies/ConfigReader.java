@@ -8,7 +8,7 @@ public class ConfigReader {
 
     static Properties properties;
 
-    static { // static blok herseyden once calisir
+    static { // static blok herseyden once calisir.
 
         String dosyaYolu= "configuration.properties";
         try {
