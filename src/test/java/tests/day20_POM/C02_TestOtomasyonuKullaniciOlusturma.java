@@ -29,7 +29,7 @@ public class C02_TestOtomasyonuKullaniciOlusturma {
         //4- ilgili alanlari doldurarak signup tusuna basin
 
         Faker faker=new Faker();
-        testOtomasyonuPage.signUpFirstNameLinki.click();
+        testOtomasyonuPage.signUpFirstnameKutusu.click();
 
         actions .sendKeys(faker.name().firstName())
                 .sendKeys(Keys.TAB)
