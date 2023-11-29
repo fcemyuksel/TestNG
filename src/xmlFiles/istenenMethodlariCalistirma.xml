@@ -14,6 +14,7 @@ method calistirmalarinda testNG iki alternatif olusturmus
 <suite name="istenen method'lar">
     <test name="method calistirma">
 
+
         <classes>
             <class name="tests.day09_TestNG.C01_Priority">
                 <methods>
