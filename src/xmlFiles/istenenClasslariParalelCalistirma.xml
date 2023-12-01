@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Test Otomasyon Smoke">
-    <test name="Smoke Test" thread-count="2" parallel="classes">
+    <test name="Smoke Test">
         <classes>
             <class name="tests.day20_POM.C03_PozitifLoginTesti"></class>
             <class name="tests.day20_POM.C04_NegatifLoginTesti"></class>
