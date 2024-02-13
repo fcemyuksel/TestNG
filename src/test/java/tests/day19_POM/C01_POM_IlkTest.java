@@ -1,7 +1,7 @@
 package tests.day19_POM;
 
-import Utilies.Driver;
-import Utilies.ReusableMethods;
+import utilities.Driver;
+import utilities.ReusableMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

@@ -1,13 +1,11 @@
 package tests.day10_TestNG;
 
-import Utilies.TestBase;
+import utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static Utilies.TestBase_BeforeClass.driver;
 
 public class C01_HardAssert extends TestBase {
     @Test(groups = {"smoke","regresyon","e2e2"})

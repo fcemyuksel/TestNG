@@ -1,8 +1,8 @@
 package tests.day20_POM;
 
 import Pages.TestOtomasyonuPage;
-import Utilies.ConfigReader;
-import Utilies.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
